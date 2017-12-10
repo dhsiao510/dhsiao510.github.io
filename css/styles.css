@@ -81,6 +81,14 @@ hr {
 	margin-right:5px;
 }
 
+.phone {
+	margin-top:20px;
+}
+
+.phone .glyphicons {
+	margin-right:5px;
+}
+
 
 .project-img-col img {
 	max-width: 250px;
