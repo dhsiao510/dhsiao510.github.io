@@ -26,7 +26,6 @@ hr {
 	max-width:300px;
 }
 
-
 .navbar.navbar-default {
 	background: none;
 	border: none; 
@@ -81,14 +80,9 @@ hr {
 	margin-right:5px;
 }
 
-.phone {
-	margin-top:20px;
+.contactContainer {
+	float:left;
 }
-
-.phone .glyphicon {
-	margin-right:5px;
-}
-
 
 .project-img-col img {
 	max-width: 250px;
