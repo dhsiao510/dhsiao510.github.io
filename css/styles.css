@@ -82,6 +82,7 @@ hr {
 
 .contactContainer {
 	float:left;
+	clear:left
 }
 
 .project-img-col img {
