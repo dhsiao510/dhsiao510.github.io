@@ -94,7 +94,7 @@ hr {
 }
 
 .techlogo {
-	width:140px;
+	max-width:140px;
 }
 
 .tech-item {
