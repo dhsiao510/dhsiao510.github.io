@@ -19,9 +19,13 @@ html, body, #root {
 
 p {
   width: 75%;
+  text-indent: 30px;
+  line-height: 150%;
 }
 
 button {
+  height: 30px;
+  background-color: rgb(113, 113, 248);
   margin-left: 30px;
 }
 
