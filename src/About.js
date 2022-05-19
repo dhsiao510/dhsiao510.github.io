@@ -8,6 +8,12 @@ function About() {
     <div className="main">
       <h1>David Hsiao</h1>
       <h3>davidhsiao510@icloud.com</h3>
+      <iframe
+        src="https://drive.google.com/file/d/12eZz4z3VXWb4JunbxlvbOgk3caLQNwIR/preview"
+        width="19%"
+        height="480"
+        title="Profile Picture"
+      ></iframe>
       <p>
         David offers over 4 years of professional experience building production
         ready enterprise software products. He has taken many projects from
