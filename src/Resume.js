@@ -6,7 +6,7 @@ const Resume = () => {
       "https://drive.google.com/file/d/1JCXXlYvPbPFU38XXVxKSel9uL-2q4sYh/view?usp=sharing";
   }, []);
 
-  return <>test</>;
+  return <></>;
 };
 
 export default Resume;
