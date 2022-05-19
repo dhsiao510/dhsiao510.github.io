@@ -17,6 +17,17 @@ html, body, #root {
   color: rgb(0, 0, 69);
 }
 
+iframe {
+  width: 18%;
+  height: 40%;
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 27%;
+  }
+}
+
 p {
   width: 75%;
   text-indent: 30px;

@@ -10,8 +10,6 @@ function About() {
       <h3>davidhsiao510@icloud.com</h3>
       <iframe
         src="https://drive.google.com/file/d/12eZz4z3VXWb4JunbxlvbOgk3caLQNwIR/preview"
-        width="19%"
-        height="40%"
         title="Profile Picture"
       ></iframe>
       <p>
@@ -30,7 +28,7 @@ function About() {
         a full migration of an internal tool from AngularJS to React/Typescript
         while adding features and improving accessibility.
       </p>
-      <button>
+      <button autoFocus>
         <a
           href="https://drive.google.com/file/d/1JCXXlYvPbPFU38XXVxKSel9uL-2q4sYh/view?usp=sharing"
           target="_blank"
