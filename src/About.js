@@ -11,7 +11,7 @@ function About() {
       <iframe
         src="https://drive.google.com/file/d/12eZz4z3VXWb4JunbxlvbOgk3caLQNwIR/preview"
         width="19%"
-        height="480"
+        height="40%"
         title="Profile Picture"
       ></iframe>
       <p>
