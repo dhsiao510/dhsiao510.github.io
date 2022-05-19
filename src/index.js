@@ -6,10 +6,12 @@ import Resume from "./Resume";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/resume" element={<Resume />} />
-    </Routes>
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename="/">
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );
