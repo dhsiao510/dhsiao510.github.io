@@ -10,7 +10,7 @@ function About() {
       <h3>davidhsiao510@icloud.com</h3>
       <iframe
         src="https://drive.google.com/file/d/12eZz4z3VXWb4JunbxlvbOgk3caLQNwIR/preview"
-        title="Profile Picture"
+        title="Portrait"
       ></iframe>
       <p>
         David offers over 4 years of professional experience building production
@@ -38,7 +38,7 @@ function About() {
           Resume Download
         </a>
       </button>
-      <ul className="nav">
+      <div className="nav">
         <li>
           <a
             href="https://www.linkedin.com/in/dhsiao510/"
@@ -66,7 +66,8 @@ function About() {
             <TwitterLogo />
           </a>
         </li>
-      </ul>
+      </div>
+      <hr className="ln" />
     </div>
   );
 }
