@@ -1,4 +1,5 @@
 import React from "react";
+import Portrait from "./assets/Portrait";
 import LinkedInLogo from "./assets/LinkedInLogo";
 import GithubLogo from "./assets/GithubLogo";
 import TwitterLogo from "./assets/TwitterLogo";
@@ -8,10 +9,11 @@ function About() {
     <div className="main">
       <h1>David Hsiao</h1>
       <h3>davidhsiao510@icloud.com</h3>
-      <iframe
+      {/*<iframe
         src="https://drive.google.com/file/d/12eZz4z3VXWb4JunbxlvbOgk3caLQNwIR/preview"
         title="Portrait"
-      ></iframe>
+      ></iframe>*/}
+      <Portrait />
       <p>
         David offers over 4 years of professional experience building production
         ready enterprise software products. He has taken many projects from
@@ -23,10 +25,7 @@ function About() {
         writing unit tests with Jest and Testing library. He is familiar working
         in a fast-paced sprint environment as well as with Agile scrum
         methodologies. He has great communication skills and has experience
-        collaborating across teams such as UX designers and product managers. He
-        has recently completed a contract at Adobe early, in which he performed
-        a full migration of an internal tool from AngularJS to React/Typescript
-        while adding features and improving accessibility.
+        collaborating across teams such as UX designers and product managers.
       </p>
       <button autoFocus>
         <a
